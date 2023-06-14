@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import SVG from '../../public/Night_Folks_Ost.svg'
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/Night_Folks_Ost.svg"
+          src={SVG}
           alt="Night Folks Logo"
           width={800}
           height={800}
